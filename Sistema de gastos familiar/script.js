@@ -12,7 +12,7 @@ function soma (receita, gasto){
         somaGasto =+ gasto[j];
        
     }
-    return somaGasto - somaReceita ;
+    return somaGasto - somaReceita;
 }
 
 console.log("Seu saldo é: ",soma(receita, gasto))
